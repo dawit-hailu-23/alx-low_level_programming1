@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-	char i;
+	char i = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (i <= 'z')
 	{
 		printf("%c", i);
+		i++;
 	}
-	printf("\n")
+	printf(" \n");
 	return (0);
 }
