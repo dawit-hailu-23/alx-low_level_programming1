@@ -2,8 +2,7 @@
 
 /**
  * print_alphabet_X10 - print alphabet 10X
- *
- *
+ * followd by new line
  */
 void print_alphabet_x10(void)
 {
