@@ -1,4 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-char* printPutchar(char*);
+int _putchar(char);
+void print_alphabet(void);
 #endif
