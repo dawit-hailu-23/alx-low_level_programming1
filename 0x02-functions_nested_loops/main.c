@@ -1,6 +1,9 @@
 #include "main.h"
 int main()
 {
-	print_alphabet_x10();
+	int r;
+
+	r = _islower('H');
+	_putchar(r+'0');
 	return 0;
 }
