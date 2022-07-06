@@ -2,6 +2,9 @@
 #define MAIN_H
 int _putchar(char);
 int print_sign(int);
+int times_table(void);
+int add(int, int);
+int print_to_98(int);
 int print_sign(int);
 int print_last_digit(int);
 int _abs(int);
