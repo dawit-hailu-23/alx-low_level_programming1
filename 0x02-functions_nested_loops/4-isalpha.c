@@ -1,5 +1,5 @@
 /**
- * _isaplpha - check for alphabet
+ * _isalpha - check for alphabet
  * @c: check if it alpha
  * Return: 1 if c is letter else 0
  */
