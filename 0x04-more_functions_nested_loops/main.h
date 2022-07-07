@@ -2,6 +2,7 @@
 #define MAIN_H
 int _isupper(int);
 int _isdigit(int);
+void print_line(int n);
 int mul(int, int);
 int _putchar(int);
 void print_numbers(void);
