@@ -1,5 +1,5 @@
 /**
- * _isdigit: check if number
+ * _isdigit - check if number
  * @c: value
  * Return: 1 if number else 0
  */
