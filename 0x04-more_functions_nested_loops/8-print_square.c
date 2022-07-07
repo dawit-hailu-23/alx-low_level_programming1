@@ -4,16 +4,22 @@
  * print_square - print square with *
  * @c: size
  */
-void print_square(int c)
+void print_square(int)
 {
-	int i, j;
-
-	for (i = 1; i <= c; i++)
+	if (size <= 0)
 	{
-		for (j = 1; j <= c; j++)
-		{
-			_putchar('#');
-		}
 		_putchar('\n');
+	} else
+	{
+		int i, j;
+
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
 	}
 }
