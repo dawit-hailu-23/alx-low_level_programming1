@@ -13,10 +13,12 @@ void more_numbers(void)
 		j = 0;
 		while (j <= 14)
 		{
-			printf("%d", j);
+			if (j > 9)
+				_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
 			j++;
 		}
-		printf("\n");
+		_putchar('\n');
 		i++;
 	}
 }
