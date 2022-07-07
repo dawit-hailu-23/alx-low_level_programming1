@@ -4,7 +4,7 @@
  * print_square - print square with *
  * @c: size
  */
-void print_square(int)
+void print_square(int c)
 {
 	if (size <= 0)
 	{
