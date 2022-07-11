@@ -2,10 +2,14 @@
 #include "main.h"
 int main()
 {
-	int n = 10;
-	n = 400;
+	char *str;
+	int i;
 
-	printf("before %d\n", n);
-	reset_to_98(&n);
-	printf("after %d", n);
+	str = "dave is my name";
+
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	printf("%d", i);
 }
