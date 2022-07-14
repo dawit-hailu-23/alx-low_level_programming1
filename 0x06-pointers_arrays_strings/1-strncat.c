@@ -4,7 +4,7 @@
  * @src: sting to copy
  * @n: the point to copy the string
  *
- * Retutn: the copyed string
+ * Return: the copyed string
  */
 char *_strncat(char *dest, char *src, int n)
 {
