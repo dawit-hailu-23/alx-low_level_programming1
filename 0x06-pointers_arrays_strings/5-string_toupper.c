@@ -1,5 +1,5 @@
 /**
- *  string_toupper - convert string to upper
+ * string_toupper - convert string to upper
  * @s: stirng to be converted
  *
  * Return: converted string
