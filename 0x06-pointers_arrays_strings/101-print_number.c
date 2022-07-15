@@ -1,5 +1,5 @@
 /**
- * print_numbere - print only integer
+ * print_numbre - print only integer
  * @n: number
  */
 void print_number(int n)
