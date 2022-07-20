@@ -10,11 +10,14 @@ int factorial(int n)
 {
 	int num = n;
 
-	if (n == 0 && n == 1)
+	if (n == 0)
 	{
-		printf("1");
+		return (-1);
+	}
+	else if (n==1)
+	{
+		return (1);
 	}
 	num = num * factorial(n - 1);
-	printf("%d", num);
 	return (num);
 }
