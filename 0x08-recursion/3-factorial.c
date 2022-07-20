@@ -18,6 +18,6 @@ int factorial(int n)
 	{
 		return (1);
 	}
-	num = num * factorial(n - 1);
+	num *= factorial(n - 1);
 	return (num);
 }
