@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * int_index - print the first int that is returned 1 from another function
  * @array: the array to itterate through
@@ -21,10 +24,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			if (cmp(array[i]))
 			{
 				return (i);
-			}
-			else
-			{
-				return (0);
 			}
 		}
 	}

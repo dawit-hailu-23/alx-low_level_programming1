@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stddef.h>
+
 /**
  * array_iterator - itterate through the given array
  * @array: the array to be passed
@@ -6,11 +9,10 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i, j;
+	int i;
 
 	for (i = 0; i <= size; i++)
 	{
-		j = array[i];
-		f(j);
+		action(array[i]);
 	}
 }
