@@ -3,11 +3,6 @@
 
 int main()
 {
-	int sum;
-
-    sum = sum_them_all(2, 98, 1024);
-    printf("%d\n", sum);
-    sum = sum_them_all(4, 98, 1024, 402, -1024);
-    printf("%d\n", sum);
-    return (0);
+	print_numbers(",",3,1,2,3);
+       	return (0);
 }
