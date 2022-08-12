@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <string.h>
 /**
  * add_node - adds string to the head of the string
  * @head: ponter to the first element
