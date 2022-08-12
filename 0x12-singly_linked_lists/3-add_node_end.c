@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <string.h>
 /**
  * add_node_end - adds stringt to end of list
  * @head: pointer to the end of linst
