@@ -2,7 +2,7 @@
 #define LISTS_H
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * struct list_t - struct of linked list of string
  * @str: string
